@@ -1,0 +1,153 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004     @INTERRUPT_AREA
+005     @INTERRUPT_AREA
+006     @INTERRUPT_AREA
+007     @INTERRUPT_AREA
+008     @INTERRUPT_AREA
+009     @INTERRUPT_AREA
+00A     @INTERRUPT_AREA
+00B     @INTERRUPT_AREA
+00C     @INTERRUPT_AREA
+00D     @INTERRUPT_AREA
+00E     @INTERRUPT_AREA
+00F     @INTERRUPT_AREA
+010     @INTERRUPT_AREA
+011     @INTERRUPT_AREA
+012     @INTERRUPT_AREA
+013     @INTERRUPT_AREA
+014     @INTERRUPT_AREA
+015     @INTERRUPT_AREA
+016     @INTERRUPT_AREA
+017     @INTERRUPT_AREA
+018     @INTERRUPT_AREA
+019-01A strtok.save
+01B-01E _Randseed
+01F     hangiformul
+020     x1
+021     frekans
+022-026 string
+027.0   ledupstate
+027.1   leddownstate
+027.2   frekansupstate
+027.3   frekansdownstate
+028-029 idiv
+02A-02B de
+02C-02D de1
+02E-02F @sprintf_string
+030-033 atan2.y
+030-031 displayebas.sayi
+030     MAIN.@SCRATCH1
+031     ledyak.hangiled
+032     @delay_ms1.P1
+032     displaysec.sec
+032-033 @PRINTF_LU_487.P1
+032     display.karakter
+034-037 atan2.x
+034     @PRINTF_LU_487.@SCRATCH1
+035     @PRINTF_LU_487.@SCRATCH2
+036     @PRINTF_LU_487.@SCRATCH3
+037     @PRINTF_LU_487.@SCRATCH4
+038-03B atan2.z
+038     @PRINTF_LU_487.@SCRATCH5
+039     @PRINTF_LU_487.@SCRATCH6
+03A     @PRINTF_LU_487.@SCRATCH7
+03B     @SPRINTF.P1
+03C-03D @DIV1616.P1
+03C.0   atan2.sign
+03C     TIMER1_isr.@SCRATCH1
+03D     atan2.quad
+03D     TIMER1_isr.@SCRATCH2
+03E     @DIV88.P1
+03E-03F @DIV1616.P2
+03F     @DIV88.P1
+040     @DIV1616.@SCRATCH1
+040     @DIV88.@SCRATCH1
+FB4.6   C1OUT
+FB4.7   C2OUT
+FBB     CCP_2
+FBB     CCP_2_LOW
+FBC     CCP_2_HIGH
+FBE     CCP_1
+FBE     CCP_1_LOW
+FBF     CCP_1_HIGH
+FE1-FE2 @READ_PACKED_MEMORY.P1
+FE1-FE2 @WRITE_PACKED_MEMORY.P2
+FE9-FEA @READ_PROGRAM_MEMORY.P1
+FE9-FEA @READ_PACKED_MEMORY.P2
+FE9-FEA @WRITE_PROGRAM_MEMORY.P3
+FE9-FEA @WRITE_PACKED_MEMORY.P4
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P1
+FF6-FF8 @READ_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+02CE  @DIV1616
+0628  @delay_ms1
+00AE  linear_Lookup_table
+01BE  sintable
+033C  TIMER1_isr
+0312  @DIV88
+04FA  displaysec
+0536  display
+05FA  @goto11660
+064E  displayebas
+042A  @SPRINTF
+0448  @PRINTF_LU_487
+0380  ledyak
+0400  @goto11717
+0712  MAIN
+0712  @cinit
+0136  StrtoulGO
+0136  StrtolGO
+
+
+User Memory space: 
+
+User Memory space: 
+
+Project Directory:
+    C:\Microchip Solutions\cihan proje (sinus uretici)\
+
+Project Files:
+    main.c                                                  [30-May-11 08:48  CRC=57DA7637]
+    main.h                                                  [28-May-11 21:31  CRC=FA64AB80]
+    ..\..\PROGRAM FILES\MICROCHIP\THIRD PARTY\PICC\devices\18F2525.h [23-May-11 11:51  CRC=15DF245C]
+    ..\..\PROGRAM FILES\MICROCHIP\THIRD PARTY\PICC\drivers\math.h [12-May-11 13:03  CRC=7D940D39]
+    ..\..\PROGRAM FILES\MICROCHIP\THIRD PARTY\PICC\drivers\stdlib.h [22-Nis-10 10:12  CRC=97EC02E8]
+    ..\..\PROGRAM FILES\MICROCHIP\THIRD PARTY\PICC\drivers\stddef.h [16-Tem-10 09:27  CRC=897CEC6C]
+    ..\..\PROGRAM FILES\MICROCHIP\THIRD PARTY\PICC\drivers\string.h [18-Haz-08 10:48  CRC=9BE6227E]
+    ..\..\PROGRAM FILES\MICROCHIP\THIRD PARTY\PICC\drivers\ctype.h [03-Oca-08 13:55  CRC=2D1F019F]
+
+Source signature=FD3F685C
+
+Units:
+    C:\Microchip Solutions\cihan proje (sinus uretici)\main (main)
+
+Compiler Settings:
+    Processor:      PIC18F2525
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    ICD Provisions: Yes
+    Predefined symbols:
+       #define __DEBUG 1
+       #define __18F2525 TRUE
+
+Compiler operating in Evaluation Mode
+To obtain a fully enabled compiler visit www.ccsinfo.com/products
+
+Output Files:
+    Errors:      main.err
+    Ext Symbols: main.esym
+    INHX32:      main.hex
+    Symbols:     main.sym
+    List:        main.lst
+    Debug/COFF:  main.cof
+    Project:     main.PJT
+    Call Tree:   main.tre
+    Statistics:  main.STA

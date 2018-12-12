@@ -1,0 +1,5 @@
+>>> Warning 202 "main.c" Line 27(7,11): Variable never used:   idiv
+>>> Warning 202 "main.c" Line 28(6,8): Variable never used:   de
+>>> Warning 202 "main.c" Line 28(9,12): Variable never used:   de1
+      Memory usage:   ROM=4%      RAM=1% - 2%
+      0 Errors,  3 Warnings.
